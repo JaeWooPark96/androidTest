@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/FrameLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/soccer">
+
+
+        <Button
+            android:id="@+id/introduction"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:layout_x="100dp"
+            android:layout_y="100dp"
+            android:background="#ff0000"
+            android:gravity="center"
+            android:onClick="introduceListner"
+            android:text="Introduction" />
+
+        <Button
+            android:id="@+id/settings"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:layout_x="100dp"
+            android:layout_y="150dp"
+            android:background="#ff0000"
+            android:gravity="center"
+            android:onClick="settingListner"
+            android:text="Settings" />
+
+        <Button
+            android:id="@+id/start"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:layout_x="100dp"
+            android:layout_y="200dp"
+            android:background="#ff0000"
+            android:gravity="center"
+            android:onClick="startListner"
+            android:text="Start" />
+
+</TableLayout>

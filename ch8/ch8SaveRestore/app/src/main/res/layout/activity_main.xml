@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="10pt"
+        android:text="주문" />
+
+    <CheckBox
+        android:id="@+id/pizza"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="피자" />
+
+    <CheckBox
+        android:id="@+id/spaghetti"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="스파게티" />
+
+    <TextView
+        android:id="@+id/currentCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="현제 개수=0" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/increase"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="증가" />
+
+        <Button
+            android:id="@+id/decrease"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="감소" />
+
+    </LinearLayout>
+
+</LinearLayout>
